@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
         }
         private void button1_Click(object sender, EventArgs e)
         {
-              string filePath = @"E:\Test\set.ini";
+            string filePath = @"E:\Test\set.ini";
             //写入节点1
             INIHelper.Write("s1", "1", "a", filePath);
             INIHelper.Write("s1", "2", "b", filePath);
